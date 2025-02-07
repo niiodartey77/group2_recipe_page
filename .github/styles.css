@@ -1,4 +1,64 @@
-/* giving the ingredients container some atttributes /
+/* fetching the fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* resetting spacing */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* setting the background color and font color, family. */
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: "Inter";
+    box-sizing: border-box;
+}
+
+/* setting the attributes of the container */
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* setting the attributes of the core */
+.core {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+/* setting width of the container for the text in the core div */
+.core-textbox {
+    padding-left: 1.5rem;
+    width: 47.5rem;
+}
+
+/* setting the attributes of the heading */
+.core-heading {
+    font-family: "Playfair Display";
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* setting the attributes of the paragraph */
+.core-paragraph {
+    color: rgba(68, 68, 68, 0.818);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+    font-weight: 500;
+    padding-left: 0.7rem;
+}
+
+/* setting the corner radius of the image */
+.core-image {
+    border-radius: 2rem;
+}
+/* giving the ingredients container some atttributes */
 .ingredients {
     display: flex;
     flex-direction: column;
@@ -6,12 +66,12 @@
     padding-left: 2rem;
 }
 
-/ setting the font family for the heading /
+/* setting the font family for the heading */
 .ingredients-heading {
     font-family: "Playfair Display";
 }
 
-/ giving the inputs class some attributes /
+/* giving the inputs class some attributes */
 .inputs {
     display: flex;
     flex-direction: column;
@@ -20,7 +80,7 @@
     width: 41rem;
 }
 
-/ giving the input checkboxes some spacing on the right to separate them from the labels */
+/* giving the input checkboxes some spacing on the right to separate them from the labels */
 label input {
     margin-right: 0.5rem;
 }
