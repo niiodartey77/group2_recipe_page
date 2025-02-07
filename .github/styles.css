@@ -1,3 +1,30 @@
+/* giving the ingredients container some atttributes /
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 2rem;
+}
+
+/ setting the font family for the heading /
+.ingredients-heading {
+    font-family: "Playfair Display";
+}
+
+/ giving the inputs class some attributes /
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    width: 41rem;
+}
+
+/ giving the input checkboxes some spacing on the right to separate them from the labels */
+label input {
+    margin-right: 0.5rem;
+}
+
 /* setting font size, font family, font weight and font style on the h3 headings */
 .ingredients-cracker,
 .ingredients-cheesecake {
