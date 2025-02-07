@@ -1,0 +1,20 @@
+/* setting font size, font family, font weight and font style on the h3 headings */
+.ingredients-cracker,
+.ingredients-cheesecake {
+    font-size: 1rem;
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* giving the container for step 10 some attributes so we can space the checkbox from the label and format it properly */
+.step10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* giving the checkbox some space from the labels */
+.step10 input {
+    margin-right: 0.5rem;
+}
