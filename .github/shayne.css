@@ -1,0 +1,21 @@
+body main h1 {
+    text-align: center;
+    color: #000000;
+    font-family: Arial;
+}
+
+body main .subparagraph1 {
+    color: #000000;
+    font-weight: 600;
+}
+
+main div p {
+    color: #000000;
+    font-family: 'Franklin Gothic';
+    font-weight: 500;
+}
+
+main div img {
+    border-radius: 1rem;
+    width: 25rem;
+}
