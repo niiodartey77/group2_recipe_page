@@ -1,0 +1,13 @@
+body main h1 {
+    text-align: center;
+}
+body main .paragraph_1 {
+    font-style: oblique;
+}
+main div .picture_paragraph{
+    font-weight: 600;
+}
+main div .kwahu_image{
+    width: 200px;
+    border-radius:300px ;
+}
